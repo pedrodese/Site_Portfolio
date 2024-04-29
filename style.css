@@ -1,0 +1,98 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do body */
+body {
+    background-color: #222;
+    color: #eee;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo do header */
+header {
+    background-color: #333;
+    padding: 20px;
+}
+
+header h1 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilo do main */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+article {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+article h3 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+article p {
+    color: #ccc;
+    margin-bottom: 10px;
+}
+
+/* Estilo do aside */
+aside {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+aside h3 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+aside p {
+    color: #ccc;
+    margin-bottom: 10px;
+}
+
+/* Estilo do footer */
+footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    color: #ccc;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
